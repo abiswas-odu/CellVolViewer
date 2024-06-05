@@ -2,11 +2,19 @@
 
 Documentation on running the the 3D cell layer reconstruction tool, CellVolViewer. 
 
-### Download
+### Download the Code
 
-URL: ```smb://lowrie.princeton.edu/molbio3/labs/devenportlab/DDLab_Members_Current/Abhishek/CellVolViewer```
+1.	Obrain the latest release from `https://github.com/abiswas-odu/CellVolViewer/releases`. 
 
-1.	Download and unzip the files above based on your operating system of preference. 
+2. Unzip the file downloaded file and extract the release. Here we assume you are building in new subdirectory in your home directory:
+
+```shell
+   mkdir ~/CellVolViewer 
+   cd ~/CellVolViewer 
+   tar -xvf ../CellVolViewer.tar.gz
+```
+
+Note the CellVolViewer tar file will be have a different name based on the version number.
 
 2.  Let us assume that the unzipped path on the filesystem is PATH. This is the install path. 
 
